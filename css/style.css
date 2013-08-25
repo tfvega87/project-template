@@ -10,6 +10,14 @@ nav ul li{ display: inline;
         font-size:12px;
 }
 p.info{line-height:150%;}
+
+p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
