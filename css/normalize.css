@@ -205,12 +205,126 @@ mark {
 /**
  * Address margins set differently in IE 6/7.
  */
+body{
+  background-image:url('../images/text7.jpg');
+  background-repeat:repeat;
+  background-attachment:fixed; 
+  background-position: top center;
+  max-width:960px;
+  margin: 0 auto 0 auto;
+}
 
 p,
 pre {
     margin: 1em 0;
+    font-size:11px;
+    color:#666666;
+    margin-bottom:5px;
+    padding-bottom:10px;
 }
+#logo{
+margin-top:35px;
+margin-left:330px;
 
+}
+#logo2{
+position:relative;
+padding-left:250px;
+bottom:70px;
+}
+.header{
+padding-left: 40px;
+position:relative;
+font-family: century gothic, sans-serif;
+color:#267e47;
+}
+.gallery{
+padding:14px;
+margin-left:420px;
+font-family: century gothic, sans-serif;
+color:#f3ce5e;
+}
+ p.info {
+ text-indent: 30px;
+ font-size: 14px;
+ font-family: trajan pro, sans-serif;
+ margin:5px 5px;
+ float:left;
+	display:inline;
+	border-style:solid;
+	border-color:#98bf21;
+	background-color:#3ae85b;
+	
+	
+ }
+  article {
+    background: #fff;
+    margin-top: 6px;
+    padding: 5px;
+    overflow: hidden;
+    
+ }
+  .gallerylist li {
+ 	  float: left;
+    padding: 8px;
+    border:2px solid #C0C0C0;
+    display:inline;
+    background:#333;
+     border: 5px solid #fff;  
+  margin: 10px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+    
+ 	}
+ 	
+ 	.zoom img {
+  height: 101px;
+  width: 130px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.zoom img:hover {
+  width: 150px;
+  height: 150px;
+}
+  #bottom a:visited{ 
+ color:#37daf7;
+ }
+ #bottom a:hover{ 
+ color:#2f405f;
+ }
+ #bottom a{
+  float:left;
+  width: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-right:50px;
+  padding: 10px;
+  text-decoration:none;
+  }
+
+  #topnav a{
+  padding:5px 15px;
+  margin-left:15px;
+  background-color:#399f5f;
+  color:#fff;
+  text-decoration:none;
+  text-align:center;
+  font-size:15px;
+  }
+  #topnav a:hover{
+  background-color:#9febfb;
+  }
+  footer{
+  background-color:#fff;
+  }
 /**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
