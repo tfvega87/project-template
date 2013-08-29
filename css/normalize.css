@@ -289,10 +289,7 @@ color:#f3ce5e;
           transition: all 1s ease;
 }
  
-.zoom img:hover {
-  width: 150px;
-  height: 150px;
-}
+
   #bottom a:visited{ 
  color:#37daf7;
  }
