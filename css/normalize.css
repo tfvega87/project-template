@@ -247,18 +247,16 @@ color:#f3ce5e;
  p.info {
  text-indent: 30px;
  font-size: 14px;
- font-family: trajan pro, sans-serif;
+ font-family: sans-serif;
  margin:5px 5px;
  float:left;
 	display:inline;
 	border-style:solid;
 	border-color:#98bf21;
 	background-color:#3ae85b;
-	text-transform:lowercase;
+	
 }
- p:first-letter 
-    text-transform: capitalize;
-}
+ 
   article {
     background: #fff;
     margin-top: 6px;
