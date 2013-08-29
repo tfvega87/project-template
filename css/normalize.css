@@ -252,8 +252,7 @@ color:#f3ce5e;
  float:left;
 	display:inline;
 	border-style:solid;
-	border-color:
-	background-color:
+	
 	
 }
  
@@ -304,14 +303,15 @@ color:#f3ce5e;
  #bottom a:hover{ 
  color:#2f405f;
  }
- #bottom a{
+ #bottom ul{
   float:left;
   width: auto;
   text-align: center;
   margin-top: 10px;
-  margin-right:50px;
-  padding: 10px;
+  margin-right:100px;
+  padding: 10px 30px 10px 30px;
   text-decoration:none;
+  background-color:#3a3838;
   }
 
   #topnav a{
