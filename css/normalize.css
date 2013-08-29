@@ -223,15 +223,12 @@ pre {
     padding-bottom:10px;
 }
 #logo{
-margin-top:35px;
-margin-left:330px;
+position:relative;
+padding:14px;
+
 
 }
-#logo2{
-position:relative;
-padding-left:250px;
-bottom:70px;
-}
+
 .header{
 padding-left: 40px;
 position:relative;
@@ -375,6 +372,7 @@ label {
 	width: 100px;
 	padding-top: 5px;
 	font-size: 1.4em;
+	
 }
 .formheader{
 color:#f3ce5e;
